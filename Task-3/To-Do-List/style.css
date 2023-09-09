@@ -86,3 +86,14 @@ input[type=text]:focus {
     color: black;
     border: 2px solid #5d2394;
 }
+@media (max-width: 768px) {
+    .container {
+      margin-left: 10px; /* Adjust the margin for smaller screens */
+      width: 90%; /* Make the container wider for smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    .container {
+      margin-left: 5px; /* Further adjust the margin for smaller screens */
+    }
+}
